@@ -1,0 +1,81 @@
+body {
+    background :wheat;
+    font-family: "Poppins", sans-serif;
+  }
+.navbar{
+    background-color: black;
+}
+#songs{
+    width: 100%;
+    color: wheat;
+    font-size: 20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+#songbutton{
+    margin: 2px;
+    align-items: flex-start;
+    display: flex;
+    color:white ;
+    font-size: 12px;
+    width: 100%;
+
+}
+#simage{
+    margin-left: 3px;
+}
+#sname{
+  font-weight: bolder;
+  margin-left: 10%;
+}
+#sduration{
+    margin-left: auto;
+    margin-right: 3px;
+}
+
+#bodycontainer{
+    padding: 20px;
+    overflow: hidden;
+    height: 560px;
+    width: 75%;
+    color: azure;
+    background-image:url("Images/backgroundimg2.gif");
+    box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.637);
+}
+i{
+    height: 20px;
+    width: 20px;
+}
+#player{
+    height: 70px;
+    width: 100%;
+    font-size: 20px;
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: aliceblue;
+    background:
+    linear-gradient(darkred, transparent),
+    linear-gradient(to top left, black, transparent),
+    linear-gradient(to top right, black, transparent);
+background-blend-mode: screen;
+}
+#gif{
+    opacity: 0;
+    transition: opacity .2s ease-in;
+}
+#playbuttons{
+    width :100%;
+}
+#rangeline{
+    width: 80%;
+}
+
+@media screen and (max-width: 550px){
+    
+    #bodycontainer{
+        background-image:url("Images/backgroundimg.gif");
+        height: 600px;
+        width: 80%;
+    }
+}

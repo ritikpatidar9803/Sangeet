@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Favourite Music is here</title>
+
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <!-- JavaScript Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/2e86b35cbb.js" crossorigin="anonymous"></script>
+    
+</head>
+<body>
+    
+    <!--Sticky navigatation bar -->
+    <div class="header sticky-top">
+      <nav class="navbar navbar-expand-sm navbar-dark ">
+          <div class="container-fluid">
+            <a class="navbar-brand"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ0tfBHqGdI6BTA-2pwLWzquGKp-5yICQrfHhlRZ1eK9ksSqPsgLXiSV42RWKIfeciwnA0&usqp=CAU" height="40px" width="40px"> &nbsp; Ritik's Music</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mynavbar">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="mynavbar">
+                <ul class="navbar-nav me-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="index.html">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="aboutus.html">About us</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="suggest.html">Suggest Me</a>
+                </li>
+                </ul>
+                <form class="d-flex">
+                  <input class="form-control me-2" type="text" placeholder="Search">
+                  <button class="btn btn-primary"  type="button">Search</button>
+                </form>
+            </div>
+          </div>
+      </nav>
+    </div>
+    <!--Sticky navigatation bar end -->
+
+    <!--Body Container-->
+    <div class="container overflow-auto" id="bodycontainer">
+      <div id="songs">
+        
+      </div>
+    </div>
+
+    <!--Sticky playing bar -->
+    
+    <div class="container sticky-bottom" id="player">
+      <div class="row " id="rangeline">
+        <input type="range" class="form-range" min="0" max="100" step="1" value="0" id="myProgressBar"><br>
+      </div>
+      <div class="row" id="playbuttons">
+        <div class="col" id="songname">
+          
+        </div>
+        <div class="col ">
+          <center><i class="fa-solid fa-2x fa-backward" id="backwardPlay"></i></center>
+        </div>
+        <div class="col">
+          <center><i class="fa-solid fa-2x fa-play" id="masterPlay"></i></center>
+        </div>
+        <div class="col">
+          <center><i class="fa-solid fa-2x fa-forward" id="forwardPlay"></i>></i></center>          
+        </div>
+        <div class="col" id="gif">
+          <img src="images/player.gif" width="60px" height="50px">
+        </div>
+      </div>
+    </div>
+    <script src="script.js"></script> 
+</body>
+</html>
