@@ -1,15 +1,30 @@
 body {
-    background :wheat;
+    background:
+    linear-gradient(wheat, transparent),
+    linear-gradient(to top left, skyblue, transparent),
+    linear-gradient(to top right, lime, transparent);
+    background-blend-mode: screen;
     font-family: "Poppins", sans-serif;
   }
+#sitename{
+    font-size: 25px;
+    margin-left: 20px;
+    margin-right: 35px;
+
+}
 .navbar{
-    background-color: black;
+    background: black;
 }
 #songs{
+    margin-top: 20px;
     width: 100%;
     color: wheat;
     font-size: 20px;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+#songsTitle{
+    align-self: center;
+    font-size: 30px;
 }
 #songbutton{
     margin: 2px;
@@ -17,17 +32,19 @@ body {
     display: flex;
     color:white ;
     font-size: 12px;
-    width: 100%;
+    width: 50%;
 
 }
 #simage{
     margin-left: 3px;
 }
 #sname{
-  font-weight: bolder;
+  font-weight: bold;
   margin-left: 10%;
 }
-#sduration{
+
+#splaying{
+    justify-content: end ;
     margin-left: auto;
     margin-right: 3px;
 }
@@ -37,8 +54,8 @@ body {
     overflow: hidden;
     height: 560px;
     width: 75%;
-    color: azure;
-    background-image:url("Images/backgroundimg2.gif");
+    color: white;
+    background-image:url("Images/backgroundimg2.jpg");
     box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.637);
 }
 i{
@@ -72,10 +89,57 @@ background-blend-mode: screen;
 }
 
 @media screen and (max-width: 550px){
-    
+    #songname{
+        font-size: 12px;
+    }
+    #songbutton{
+        width: 100%;
+    }
     #bodycontainer{
         background-image:url("Images/backgroundimg.gif");
         height: 600px;
         width: 80%;
     }
 }
+
+.glow-on-hover {
+    cursor: pointer;
+}
+
+.glow-on-hover:before {
+    
+    background: linear-gradient(45deg, #ff0000, #ff7300, #fffb00, #48ff00, #00ffd5, #002bff, #7a00ff, #ff00c8, #ff0000);
+    
+    top: -2px;
+    left:-2px;
+    filter: blur(5px);
+    animation: glowing 20s linear infinite;
+    transition: opacity .3s ease-in-out;
+    border-radius: 10px;
+}
+
+.glow-on-hover:active {
+    color: #000
+}
+
+.glow-on-hover:active:after {
+    background: transparent;
+}
+
+.glow-on-hover:hover:before {
+    opacity: 1;
+}
+
+.glow-on-hover:after {
+    z-index: -1;
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: #111;
+    left: 0;
+    top: 0;
+    border-radius: 10px;
+}
+
+

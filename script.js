@@ -12,184 +12,140 @@ let songs=[
         "item":"songs/ekdilekjaan.mp3"
     },
     {
-        "name": "Mast Magan",
-        "item": "songs/mastmagan.mp3"
+        "name": "Tera Chehra",
+        "item": "songs/terachehra.mp3"
     },
     {
-        "name": "Bulleya",
-        "item":"songs/bulleya.mp3"
+        "name": "Sajda",
+        "item":"songs/sajda.mp3"
     },
     {
-        "name": "Ek dil ek jaan",
-        "item":"songs/ekdilekjaan.mp3"
+        "name": "Hamari Adhuri Kahani ",
+        "item":"songs/hamariadhurikahani.mp3"
     },
     {
-        "name": "Mast Magan",
-        "item": "songs/mastmagan.mp3"
+        "name": "Sanu Ek Pal Chain",
+        "item": "songs/sanuEkpalchain.mp3"
     },
     {
-        "name": "Bulleya",
-        "item":"songs/bulleya.mp3"
+        "name": "Kinna Sona ",
+        "item":"songs/kinnaSona.mp3"
     },
     {
-        "name": "Ek dil ek jaan",
-        "item":"songs/ekdilekjaan.mp3"
+        "name": "Ae Dil Hai Mushkil",
+        "item":"songs/aeDilHaiMushkil.mp3"
     },
     {
-        "name": "Mast Magan",
-        "item": "songs/mastmagan.mp3"
+        "name": "Moh Moh Ke Dhaage",
+        "item": "songs/mohMohKeDhaage.mp3"
     },
     {
-        "name": "Bulleya",
-        "item":"songs/bulleya.mp3"
+        "name": "Dil Jaaniye",
+        "item":"songs/dilJaaniye.mp3"
     },
     {
-        "name": "Ek dil ek jaan",
-        "item":"songs/ekdilekjaan.mp3"
+        "name": "Duniyaa ",
+        "item":"songs/duniyaa .mp3"
     },
     {
-        "name": "Mast Magan",
-        "item": "songs/mastmagan.mp3"
+        "name": "Naino Ne Baandhi",
+        "item": "songs/nainoNeBaandhi.mp3"
     },
     {
-        "name": "Bulleya",
-        "item":"songs/bulleya.mp3"
+        "name": "Dil Ko Karaar Aaya",
+        "item":"songs/dilKoKaraarAaya.mp3"
     },
     {
-        "name": "Ek dil ek jaan",
-        "item":"songs/ekdilekjaan.mp3"
+        "name": "Ishq Sufiyana",
+        "item":"songs/ishqSufiyana.mp3"
     },
     {
-        "name": "Mast Magan",
-        "item": "songs/mastmagan.mp3"
+        "name": "Hawayein",
+        "item": "songs/hawayein.mp3"
     },
     {
-        "name": "Bulleya",
-        "item":"songs/bulleya.mp3"
+        "name": "Kesariya",
+        "item":"songs/kesariya.mp3"
     },
     {
-        "name": "Ek dil ek jaan",
-        "item":"songs/ekdilekjaan.mp3"
+        "name": "Lut Gaye",
+        "item":"songs/lutGaye.mp3"
     },
     {
-        "name": "Mast Magan",
-        "item": "songs/mastmagan.mp3"
+        "name": "Mere Wali Sardarni",
+        "item": "songs/mereWaliSardarni.mp3"
     },
     {
-        "name": "Bulleya",
-        "item":"songs/bulleya.mp3"
+        "name": "Phir Bhi Tumko Chahunga",
+        "item":"songs/phirbhitumkochahunga.mp3"
     },
     {
-        "name": "Ek dil ek jaan",
-        "item":"songs/ekdilekjaan.mp3"
+        "name": "Saiyyan",
+        "item":"songs/saiyyan.mp3"
     },
     {
-        "name": "Mast Magan",
-        "item": "songs/mastmagan.mp3"
+        "name": "Piya O Re Piya",
+        "item": "songs/piyaORePiya.mp3"
     },
     {
-        "name": "Bulleya",
-        "item":"songs/bulleya.mp3"
+        "name": "Rabba Main Toh",
+        "item":"songs/rabbaMainToh.mp3"
     },
     {
-        "name": "Ek dil ek jaan",
-        "item":"songs/ekdilekjaan.mp3"
+        "name": "Sab Tera",
+        "item":"songs/sabTera.mp3"
     },
     {
-        "name": "Mast Magan",
-        "item": "songs/mastmagan.mp3"
+        "name": "Sanu Aaj Kal Shisha",
+        "item": "songs/sanuAajKalShisha.mp3"
     },
     {
-        "name": "Bulleya",
-        "item":"songs/bulleya.mp3"
+        "name": "Sawan Aaya Hai",
+        "item":"songs/sawanAayaHaibulleya.mp3"
     },
     {
-        "name": "Ek dil ek jaan",
-        "item":"songs/ekdilekjaan.mp3"
+        "name": "Tera Ban Jaunga",
+        "item":"songs/teraBanJaunga.mp3"
     },
     {
-        "name": "Mast Magan",
-        "item": "songs/mastmagan.mp3"
+        "name": "Teri Deewani",
+        "item": "songs/teriDeewani.mp3"
     },
     {
-        "name": "Bulleya",
-        "item":"songs/bulleya.mp3"
+        "name": "Tu Chahiye",
+        "item":"songs/tuChahiye.mp3"
     },
     {
-        "name": "Ek dil ek jaan",
-        "item":"songs/ekdilekjaan.mp3"
+        "name": "Tera Fitoor",
+        "item":"songs/teraFitoor.mp3"
     },
     {
-        "name": "Mast Magan",
-        "item": "songs/mastmagan.mp3"
+        "name": "Jag Ghoomeya",
+        "item": "songs/jagGhoomeya.mp3"
     },
     {
-        "name": "Bulleya",
-        "item":"songs/bulleya.mp3"
+        "name": "Pee Loon",
+        "item":"songs/peeLoon.mp3"
     },
     {
-        "name": "Ek dil ek jaan",
-        "item":"songs/ekdilekjaan.mp3"
+        "name": "Ye Tune Kya Kiya",
+        "item":"songs/yeTuneKyaKiya.mp3"
     },
     {
-        "name": "Mast Magan",
-        "item": "songs/mastmagan.mp3"
+        "name": "Samjhawan",
+        "item": "songs/samjhawan.mp3"
     },
     {
-        "name": "Bulleya",
-        "item":"songs/bulleya.mp3"
+        "name": "Agar Tum Saath Ho",
+        "item":"songs/agarTumSaathHo.mp3"
     },
     {
-        "name": "Ek dil ek jaan",
-        "item":"songs/ekdilekjaan.mp3"
+        "name": "Arziyaan",
+        "item":"songs/arziyaan.mp3"
     },
     {
-        "name": "Mast Magan",
-        "item": "songs/mastmagan.mp3"
-    },
-    {
-        "name": "Bulleya",
-        "item":"songs/bulleya.mp3"
-    },
-    {
-        "name": "Ek dil ek jaan",
-        "item":"songs/ekdilekjaan.mp3"
-    },
-    {
-        "name": "Mast Magan",
-        "item": "songs/mastmagan.mp3"
-    },
-    {
-        "name": "Bulleya",
-        "item":"songs/bulleya.mp3"
-    },
-    {
-        "name": "Ek dil ek jaan",
-        "item":"songs/ekdilekjaan.mp3"
-    },
-    {
-        "name": "Mast Magan",
-        "item": "songs/mastmagan.mp3"
-    },
-    {
-        "name": "Bulleya",
-        "item":"songs/bulleya.mp3"
-    },
-    {
-        "name": "Ek dil ek jaan",
-        "item":"songs/ekdilekjaan.mp3"
-    },
-    {
-        "name": "Mast Magan",
-        "item": "songs/mastmagan.mp3"
-    },
-    {
-        "name": "Bulleya",
-        "item":"songs/bulleya.mp3"
-    },
-    {
-        "name": "Ek dil ek jaan",
-        "item":"songs/ekdilekjaan.mp3"
+        "name": "Baarish",
+        "item": "songs/baarish.mp3"
     }
 ]
 
@@ -209,10 +165,10 @@ songs.forEach((element) =>{
         console.log(audioElement.duration);
         let i = songIndex++;
         songHTML += `
-        <button type="button" onclick="playsong(${i})" class="btn btn-outline-secondary" id="songbutton">
-                <span id="simage"><img src="images/background.jpg" width="20px" height="20px"></span>
+        <button type="button" onclick="playsong(${i})" class="btn btn-outline-secondary glow-on-hover" id="songbutton">
+                <span id="simage"><img src="Images/background.jpg" width="20px" height="20px"></span>
                 <span id="sname">${element.name}</span>
-                <span id="sduration">${audioElement.duration}</span>
+                <span class="s${i}" id="splaying"><img src="Images/pause.gif" width="20px" height="20px"></span>
         </button>`;
         songItems.innerHTML = songHTML;
 })
@@ -230,6 +186,10 @@ function playsong(ind){
         //update myprogressbar
         progress = parseInt((audioElement.currentTime/audioElement.duration)*100);
         myProgressBar.value = progress;    
+        if(progress == 100){
+            index += 1;
+            playsong(index);
+        }
     });
 
     myProgressBar.addEventListener('change', ()=> {
@@ -245,6 +205,7 @@ function displaysong(){
     let songnameHTML = "";
     songnameHTML += `<span>${songs[index].name}</span>`;
     songNameDisplay.innerHTML = songnameHTML;
+
 
 }
 
